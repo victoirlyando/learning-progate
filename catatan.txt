@@ -1,0 +1,37 @@
+belajar css:
+float : untuk membuat tulisan sejajar ke kanan atau ke kiri
+margin(top,bottom,right,left): mengatur bagian luar dari sebuah text
+padding(top,bottom,right,left): mengatur bagian luar dari sebuah text
+font-family: mengatur style tulisan 
+border-bottom: membuat garis
+backround-color: memberi warna pada latar
+backround-image (url)"folder/nama foto": memberi gambar pada latar
+opoacity:Untuk membuat element menjadi transparan
+rgb(rgba):cara untuk menentukan warna dengan kombinasi tiga nilai yakni, red (merah), green (hijau), dan blue (biru),({a} untuk mengatur transparansi warna)
+letter-spacing:Sedangkan untuk jarak antar huruf
+display:untuk mengaturnya.Property display dapat memiliki nilai block, inline-block, atau inline
+selector (:hover) :kita dapat menentukan tingkah lakunya pada saat element dalam status hover (untuk menghiasi div ketika di tunjuk kursor(:hover))
+border-radius:untuk membulatkan sudut element
+text-align(left,center,right):dapat digunakan untuk menyejajarkan element inline dan inline-block
+transition :untuk menambahkan animasi.dapat menentukan target dan durasi animasinya.Target(color,all) transition sering digunakan dengan selector hover
+line-height:digunakan untuk menentukan tinggi yang ditempati baris,menyamakan nilai untuk height dan line-height akan menengahkan teks didalam barisnya secara vertikal
+font-weight(font-weight: bold;):memungkinkan Anda untuk mengubah ketebalan teks
+position:absolute;(top,left) :untuk membuat element bertumpang-tindih
+position: relative; :mengubah titik referensi untuk (position: absolute) dengan menetapkan ke element ancestornya (element yg terhubung tp terletak jauh diatas element induk).
+position: fixed; :untuk menempatkan element dan menahannya diposisi tertentu dilayar
+box-shadow (mengatur horizontal,vertikal,dan warnanya):digunakan untuk menambahkan bayangan ke element apapun
+cursor (text,pointer,default):dapat digunakan untuk mengubah jenis kursor mouse
+Selector (:active) :dapat digunakan untuk menambahkan CSS ini pada saat element sedang diklik
+z-index :memungkinkan Anda mengubah urutan tumpukan element(hanya akan berlaku bila digabungkan dengan property position)
+@media (kondisi) { .... }:dapat menentukan max-width atau min-width sebagai kondisi,Nilai yang ditetapkan disebut dengan breakpoint (titik penentu)
+catatan:
+Desktop (1200px)
+Tablet (680px)
+Smartphone (350px)
+Jika max-width: 1000px dipilih, CSS akan diterapkan untuk layar yang berukuran 1000px atau kurang. Sebaliknya, untuk min-width: 500px, CSS akan diterapkan hanya untuk ukuran layar 500px atau lebih
+*box-sizing: border-box :penyesuaian layout halaman web dapat dilakukan dengan lebih mudah
+viewport:berguna untuk menjalankan media queries yang telah di atur baik untuk tablet atau di smartphone (terletak di head).syntaknya (<meta name="viewport" content="width=device-width, initial-scale=1.0">)(head)
+display:flex  :pada element induk akan menumpuk element turunannya secara horizontal
+flex: auto :element tersebut akan meluas untuk mengisi seluruh ruang lebar milik element induknya
+flex-wrap: wrap  :satu baris element akan dapat dibungkus ke dalam banyak baris berdasarkan ukuran element(induk)
+flex-direction:column  :akan membuat semua element bertumpuk secara vertikal.
